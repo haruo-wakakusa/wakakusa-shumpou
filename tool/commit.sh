@@ -18,6 +18,9 @@ if [ $# -ne 1 ]; then
   exit 1
 fi
 
+# .jmd -> .md への変換
+./tool/find_jmd.sh
+
 git add --all
 git commit -m $1
 git push https://haruo-wakakusa@github.com/haruo-wakakusa/wakakusa-shumpou.git master

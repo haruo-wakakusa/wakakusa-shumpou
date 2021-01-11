@@ -4,8 +4,8 @@
 ###
 ### <使用方法>
 ### (bashスクリプト上で以下のように入力する)
-### source init.sh
+### source tool/init.sh
 ###
 
-alias c='./commit.sh'
+alias c='./tool/commit.sh'
 
